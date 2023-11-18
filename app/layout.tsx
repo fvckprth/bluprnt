@@ -1,8 +1,20 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
+import localFont from 'next/font/local'
+import '@/styles/globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+export const dynamic = 'force-dynamic'
+
+const sfRoundMedium = localFont({
+  src: '../public/fonts/sf-round-medium.otf',
+  weight: '500',
+  variable: '--font-sfroundmedium',
+});
+
+const sfRoundBold = localFont({
+  src: '../public/fonts/sf-round-bold.otf',
+  weight: '700',
+  variable: '--font-sfRoundBold',
+});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${sfRoundBold.className} font-bold scroll-smooth bg-newblack`}>
+        {children}
+      </body>
     </html>
   )
 }
