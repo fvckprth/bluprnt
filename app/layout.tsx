@@ -1,13 +1,14 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import '@/styles/globals.css'
+import Nav from '@/components/nav'
 
 export const dynamic = 'force-dynamic'
 
 const sfRoundMedium = localFont({
   src: '../public/fonts/sf-round-medium.otf',
   weight: '500',
-  variable: '--font-sfroundmedium',
+  variable: '--font-sfRoundMedium',
 });
 
 const sfRoundBold = localFont({
@@ -28,7 +29,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${sfRoundBold.className} font-bold scroll-smooth bg-newblack`}>
+      <body className={`${sfRoundMedium.className} scroll-smooth text-newblack bg-newwhite`}>
+        <Nav />
         {children}
       </body>
     </html>

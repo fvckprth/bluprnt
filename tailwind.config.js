@@ -16,10 +16,16 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['var(--font-sfRoundBold)', 'var(--font-sfRoundMedium)'],
+      },
       colors: {
-        newblack: "#171717",
-        newblue: "#91BDFF",
-        newwhite: "#C1C1C1",
+        newblack: "#1C1C1E",
+        newblue: "#007AFF",
+        newwhite: "#FFFFFF",
+        newgray: "#8E8E93",
+        neworange: "#FF9500",
+        cardbg: "#EFEFF4",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

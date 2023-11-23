@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import Nav from '@/components/nav'
+import Hero from '@/components/hero'
+import Work from '@/components/work'
+import Subscribe from '@/components/subscribe'
 
 export default function Home() {
   return (
-    <div>
-      <Nav />
+    <div className='mx-auto pt-24'>
+      <Hero />
+      <Work />
+      <Subscribe />
     </div>
   )
 }
