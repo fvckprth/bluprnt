@@ -2,17 +2,16 @@ import Image from 'next/image';
 
 export default function Nav() {
   return (
-    <div className="flex flex-row text-5xl px-3 py-3 pb-12 border-b border-newwhite/25">
+    <div className="flex flex-row text-3xl mx-40 py-6 border-b">
         <Image 
             src="/icons/bluprnt.svg"
-            width={48} 
-            height={48} 
+            width={24}
+            height={24}
             alt="BluPrnt Logo"
-            className='mr-3'
+            className='mr-1'
         />
-        <div className='flex flex-row space-x-3 font-bold'>
-            <div className="text-newblue">BluPrnt</div>
-            <div className="text-newgray/25">by Parth Patel</div>
+        <div className='flex flex-row ml-1 font-bold'>
+            <div className="text-newgray/50"><span className='text-newblue'>BluPrnt</span> by Parth Patel</div>
         </div>
     </div>
   );

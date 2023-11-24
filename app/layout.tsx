@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import '@/styles/globals.css'
 import Nav from '@/components/nav'
+import Footer from '@/components/footer'
 
 export const dynamic = 'force-dynamic'
 
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body className={`${sfRoundMedium.className} scroll-smooth text-newblack bg-newwhite`}>
         <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   )
