@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     apple: 'favicons/apple-touch-icon.png'
   },
   openGraph: {
+    title: 'BluPrnt',
+    description: 'BluPrnt is a personal and opinionated subscription design service by Parth Patel based in New York.',
     images: [
       {
         url: '/bluprnt-og.png',
@@ -62,6 +64,7 @@ export default function RootLayout({
         <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
         <meta property="og:image" content="/bluprnt-og.png" />
+        <meta property="og:image:alt" content="BluPrnt OG" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="bluprnt.vercel.app" />
         <meta property="twitter:url" content="https://bluprnt.vercel.app" />
