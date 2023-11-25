@@ -9,7 +9,7 @@ export default function Subscribe() {
     <Element name="subscribe">
         <div className='pt-12 md:pt-20'>
         <div className='px-6 md:px-40 flex flex-col space-y-6 md:space-y-12'>
-            <div className='text-3xl md:text-7xl font-bold'><span className="text-newblue">
+            <div className='text-3xl md:text-7xl font-bold' style={{ fontFamily: 'var(--font-sfRoundBold)' }}><span className="text-newblue">
             BluPrnt</span> your <br/>
             future, today
             </div>

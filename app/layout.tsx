@@ -70,7 +70,7 @@ export default function RootLayout({
         <meta name="twitter:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className={`${sfRoundMedium.className} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
+      <body className={`${sfRoundMedium.variable} ${sfRoundBold.variable} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
         {children}
         <Footer />
       </body>

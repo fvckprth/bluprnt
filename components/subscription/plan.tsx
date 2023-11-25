@@ -8,9 +8,9 @@ export default function Plan() {
     <div className="flex flex-col md:flex-row gap-6 md:gap-12">
       <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="text-xl md:text-2xl font-bold">Personal Plan</div>
-          <div className="text-3xl md:text-5xl font-bold">$3,200 / mo</div>
-          <p className="text-base md:text-xl text-newgray">
+          <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Personal Plan</div>
+          <div className="text-3xl md:text-5xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>$3,200 / mo</div>
+          <p className="text-base md:text-xl text-newgray" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
             Perfect for those with on-going <br /> needs for design work and
             growth
           </p>
@@ -26,9 +26,11 @@ export default function Plan() {
               </motion.div>
             </Link>
           </div>
-          <p className="text-base md:text-xl text-newgray/50">Pause or cancel anytime</p>
+          <p className="text-base md:text-xl text-newgray/50" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
+            Pause or cancel anytime
+          </p>
         </div>
-        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl">
+        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
           <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image
@@ -118,20 +120,20 @@ export default function Plan() {
       <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
           <div className="flex flex-row space-x-2">
-            <div className="text-xl md:text-2xl font-bold">Pro Plan</div>
-            <div className="bg-neworange/25 text-neworange text-sm md:text-base font-bold rounded-full px-3 py-1">
+            <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Pro Plan</div>
+            <div className="bg-neworange/25 text-neworange text-sm md:text-base font-bold rounded-full px-3 py-1" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
               For Teams
             </div>
           </div>
-          <div className="text-3xl md:text-5xl font-bold">$5,300 / mo</div>
-          <p className="text-base md:text-xl text-newgray">
+          <div className="text-3xl md:text-5xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>$5,300 / mo</div>
+          <p className="text-base md:text-xl text-newgray" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
             Perfect for startups and teams looking
             <br />
             for faster work and more requests
           </p>
         </div>
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
             <Link href="https://buy.stripe.com/28o6pwgMG4EG0LK289">
               <motion.div
                 whileTap={{ scale: 0.95 }}
@@ -141,9 +143,9 @@ export default function Plan() {
               </motion.div>
             </Link>
           </div>
-          <p className="text-base md:text-xl text-newgray/50">Pause or cancel anytime</p>
+          <p className="text-base md:text-xl text-newgray/50" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>Pause or cancel anytime</p>
         </div>
-        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl">
+        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
         <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image

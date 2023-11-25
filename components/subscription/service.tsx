@@ -8,13 +8,13 @@ export default function Service() {
     <div className="flex flex-col md:flex-row gap-6 md:gap-12">
       <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="text-xl md:text-2xl font-bold">Intro Call</div>
-          <p className="text-base md:text-xl text-newgray">
+          <div className="text-xl md:text-2xl font-bold"  style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Intro Call</div>
+          <p className="text-base md:text-xl text-newgray"  style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
             Book a <strong>15-min</strong> intro call to <br />
             learn more about BluPrnt
           </p>
         </div>
-        <div className="space-y-2 md:space-y-3">
+        <div className="space-y-2 md:space-y-3" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
           <div className="flex flex-col items-start">
             <Link href="https://cal.com/parthpatel/15min">
               <motion.div
@@ -38,14 +38,14 @@ export default function Service() {
       </div>
       <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="text-xl md:text-2xl font-bold">Refer & Earn</div>
-          <p className="text-base md:text-xl text-newgray">
+          <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Refer & Earn</div>
+          <p className="text-base md:text-xl text-newgray" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
             Get <strong>$500</strong> for every
             <br />
             client that you bring in
           </p>
         </div>
-        <div className="space-y-2 md:space-y-3">
+        <div className="space-y-2 md:space-y-3" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
           <div className="flex flex-col items-start">
             <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
               <motion.div
@@ -69,14 +69,14 @@ export default function Service() {
       </div>
       <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="text-xl md:text-2xl font-bold">Custom Request</div>
-          <p className="text-base md:text-xl text-newgray">
+          <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Custom Request</div>
+          <p className="text-base md:text-xl text-newgray"  style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
             I&apos;m <strong>here to listen</strong> & make it
             <br />
             happen however you want
           </p>
         </div>
-        <div className="space-y-2 md:space-y-3">
+        <div className="space-y-2 md:space-y-3" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
           <div className="flex flex-col items-start">
             <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
               <motion.div

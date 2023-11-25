@@ -15,7 +15,6 @@
   src: url('/fonts/sf-round-medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
@@ -23,7 +22,6 @@
   src: url('/fonts/sf-round-bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
 }
  
 @layer base {

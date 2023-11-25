@@ -28,7 +28,7 @@ export default function Work() {
     return (
         <div className='pt-12 md:pt-20'>
             <div className='px-6 md:px-40 pb-4 md:pb-12'>
-                <div className='text-3xl md:text-7xl font-bold'>
+                <div className='text-3xl md:text-7xl font-bold' style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
                     Some of <br/>
                     our work
                 </div>

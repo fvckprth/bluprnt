@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Subscribe() {
   return (
-    <div className='pt-12 md:pt-20'>
-      <div className='mx-6 md:mx-40 flex flex-row justify-between text-newgray text-sm md:text-base border-t'>
+    <div className='pt-12 md:pt-20' style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
+      <div className='mx-6 md:mx-40 flex flex-row justify-between text-newgray backdrop:text-sm md:text-base border-t'>
         <div className='py-4 md:py-6 flex flex-col space-y-1'>
             <div className='flex flex-row items-center'>
                 <p className='mr-1'>Made by</p>

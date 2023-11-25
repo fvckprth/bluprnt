@@ -49,6 +49,7 @@ const AccordionContent = React.forwardRef<
   <AccordionPrimitive.Content
     ref={ref}
     className="overflow-hidden text-base md:text-xl text-newgray transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down"
+    style={{ fontFamily: 'var(--sfRoundMedium)' }}
     {...props}
   >
     <div className={cn("pb-3 pl-7 md:pl-9 pt-0", className)}>{children}</div>
