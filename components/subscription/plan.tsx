@@ -16,7 +16,7 @@ export default function Plan() {
           </p>
         </div>
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
             <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
               <motion.div
                 whileTap={{ scale: 0.95 }}
