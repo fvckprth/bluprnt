@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: 'https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png',
+        url: '/bluprnt-og.png',
         width: 900,
         height: 450,
         alt: 'BluPrnt OG Image',
