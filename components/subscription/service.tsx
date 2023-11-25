@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 
 export default function Service() {
   return (
-    <div className="flex flex-row gap-12">
-      <div className="flex flex-col w-full bg-cardbg p-6 rounded-3xl">
-        <div className="space-y-3 pb-10">
-          <div className="text-2xl font-bold">Intro Call</div>
-          <p className="text-xl text-newgray">
+    <div className="flex flex-col md:flex-row gap-6 md:gap-12">
+      <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
+          <div className="text-xl md:text-2xl font-bold">Intro Call</div>
+          <p className="text-base md:text-xl text-newgray">
             Book a <strong>15-min</strong> intro call to <br />
             learn more about BluPrnt
           </p>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-2 md:space-y-3">
           <div className="flex flex-col items-start">
             <Link href="https://cal.com/parthpatel/15min">
               <motion.div
@@ -27,7 +27,7 @@ export default function Service() {
                     alt="Book Call Icon"
                     width={32}
                     height={32}
-                    className="mr-2"
+                    className="h-6 w-6 md:h-8 md:w-8 mr-2"
                   />
                   Book call
                 </Button>
@@ -36,16 +36,16 @@ export default function Service() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full bg-cardbg p-6 rounded-3xl">
-        <div className="space-y-3 pb-10">
-          <div className="text-2xl font-bold">Refer & Earn</div>
-          <p className="text-xl text-newgray">
+      <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
+          <div className="text-xl md:text-2xl font-bold">Refer & Earn</div>
+          <p className="text-base md:text-xl text-newgray">
             Get <strong>$500</strong> for every
             <br />
             client that you bring in
           </p>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-2 md:space-y-3">
           <div className="flex flex-col items-start">
             <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
               <motion.div
@@ -58,7 +58,7 @@ export default function Service() {
                     alt="Share BluPrnt"
                     width={32}
                     height={32}
-                    className="mr-2"
+                    className="h-6 w-6 md:h-8 md:w-8 mr-2"
                   />
                   Share BluPrnt
                 </Button>
@@ -67,16 +67,16 @@ export default function Service() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col w-full bg-cardbg p-6 rounded-3xl">
-        <div className="space-y-3 pb-10">
-          <div className="text-2xl font-bold">Custom Request</div>
-          <p className="text-xl text-newgray">
+      <div className="flex flex-col w-full bg-cardbg p-4 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
+          <div className="text-xl md:text-2xl font-bold">Custom Request</div>
+          <p className="text-base md:text-xl text-newgray">
             I&apos;m <strong>here to listen</strong> & make it
             <br />
             happen however you want
           </p>
         </div>
-        <div className="space-y-3">
+        <div className="space-y-2 md:space-y-3">
           <div className="flex flex-col items-start">
             <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
               <motion.div
@@ -89,7 +89,7 @@ export default function Service() {
                     alt="Send Brief"
                     width={32}
                     height={32}
-                    className="mr-2"
+                    className="h-6 w-6 md:h-8 md:w-8 mr-2"
                   />
                   Send brief
                 </Button>

@@ -56,12 +56,12 @@ import {
   export default function FAQ() {
     return (
       <div>
-        <div className='px-40 pt-20 flex flex-row justify-between'>
-          <div className='text-7xl font-bold'>
+        <div className='px-6 md:px-40 pt-12 md:pt-20 flex flex-col md:flex-row md:justify-between'>
+          <div className='pb-6 md:pb-0 text-3xl md:text-7xl font-bold'>
             Frequently <br/>
             asked questions
           </div>
-          <div className='w-[40%]'>
+          <div className='w-full md:w-[40%]'>
               <Accordion type="single" collapsible>
                 {faqData.map((faq, index) => (
                     <AccordionItem key={index} value={`item-${index}`}>
