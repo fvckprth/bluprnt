@@ -61,7 +61,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
-        <meta property="og:image" content="https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png" />
+        <meta property="og:image" content="/bluprnt-og.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="bluprnt.vercel.app" />
         <meta property="twitter:url" content="https://bluprnt.vercel.app" />
