@@ -57,14 +57,14 @@ export default function RootLayout({
         <meta name="theme-color" content="#007AFF" />
         <meta name="apple-mobile-web-app-title" content="BluPrnt" />
         <meta property="og:site_name" content="BluPrnt" />
-        <meta property="og:url" content="https://bluprint.vercel.app" />
+        <meta property="og:url" content="https://bluprnt.vercel.app" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
         <meta property="og:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="bluprnt.vercel.app" />
-        <meta property="twitter:url" content="https://bluprint.vercel.app" />
+        <meta property="twitter:url" content="https://bluprnt.vercel.app" />
         <meta name="twitter:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta name="twitter:description" content={metadata.description as string} />  {/* Type assertion to string */}
         <meta name="twitter:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
