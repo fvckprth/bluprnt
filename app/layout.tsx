@@ -67,7 +67,7 @@ export default function RootLayout({
         <meta property="twitter:url" content="https://bluprnt.vercel.app" />
         <meta name="twitter:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta name="twitter:description" content={metadata.description as string} />  {/* Type assertion to string */}
-        <meta name="twitter:image" content="https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png" />
+        <meta name="twitter:image" content="/bluprnt-og.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <body className={`${sfRoundMedium.variable} ${sfRoundBold.variable} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
