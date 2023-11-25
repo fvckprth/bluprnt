@@ -28,7 +28,7 @@ export default function Plan() {
           </div>
           <p className="text-base md:text-xl text-newgray/50">Pause or cancel anytime</p>
         </div>
-        <div className="flex flex-row justify-between md:justify-start gap-0 md:gap-8 text-sm md:text-xl">
+        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl">
           <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image
@@ -143,7 +143,7 @@ export default function Plan() {
           </div>
           <p className="text-base md:text-xl text-newgray/50">Pause or cancel anytime</p>
         </div>
-        <div className="flex flex-row justify-between md:justify-start gap-0 md:gap-8 text-sm md:text-xl">
+        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl">
         <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image

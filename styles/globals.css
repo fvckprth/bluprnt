@@ -7,15 +7,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ScrollAreaScrollbar[data-state="hidden"] {
-  background-color: transparent;
-}
-
 .arrow:hover {
   filter: brightness(0) saturate(100%) invert(28%) sepia(43%) saturate(4094%) hue-rotate(204deg) brightness(99%) contrast(101%);
 }
 
-.ScrollAreaScrollbar::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
  

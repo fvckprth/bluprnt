@@ -48,7 +48,7 @@ export default function Work() {
                                             width={width}
                                             height={height}
                                             priority={true}
-                                            className="min-h-fit w-full rounded-2xl"
+                                            className="h-full rounded-2xl"
                                         />
                                     </div>
                             );
