@@ -29,13 +29,13 @@ const AccordionTrigger = React.forwardRef<
     <AccordionPrimitive.Trigger
       ref={ref}
       className={cn(
-        "flex flex-1 items-center py-2 md:py-3 text-xl md:text-2xl font-bold transition-all [&[data-state=open]>svg]:rotate-45",
+        "flex flex-1 items-center py-2 md:py-3 text-lg md:text-2xl font-bold transition-all [&[data-state=open]>svg]:rotate-45",
         className
       )}
       {...props}
       style={{ WebkitTapHighlightColor: 'transparent' }}
     >
-      <PlusIcon className="h-6 w-6 mr-1 md:mr-3 shrink-0 transition-transform duration-200 text-newblue"/>
+      <PlusIcon className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3 shrink-0 transition-transform duration-200 text-newblue"/>
         {children}
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>

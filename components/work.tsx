@@ -12,7 +12,7 @@ export default function Work() {
         { src: 'mock_04.png', title: 'Work 4', width: 200, height: 600, type: 'mobile' },
         { src: 'mock_05.png', title: 'Work 5', width: 200, height: 600, type: 'mobile' },
         { src: 'mock_06.png', title: 'Work 6', width: 200, height: 600, type: 'mobile' },
-        { src: 'mock_07.png', title: 'Work 7', width: 742, height: 600, type: 'mobile' },
+        { src: 'mock_07.png', title: 'Work 7', width: 742, height: 600, type: 'desktop' },
     ];
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -42,14 +42,15 @@ export default function Work() {
 
                             return (
                                 <div key={index} className="border border-newgray/25 shadow-sm rounded-2xl m-2 flex-shrink-0">
-                                    <Image
-                                        src={`/images/mocks/${image.src}`}
-                                        alt={image.title}
-                                        width={width}
-                                        height={height}
-                                        className={`h-[${height}px] w-full object-contain rounded-2xl`}
-                                    />
-                                </div>
+                                        <Image
+                                            src={`/images/mocks/${image.src}`}
+                                            alt={image.title}
+                                            width={width}
+                                            height={height}
+                                            priority={true}
+                                            className="min-h-fit w-full rounded-2xl"
+                                        />
+                                    </div>
                             );
                         })}
                     </div>

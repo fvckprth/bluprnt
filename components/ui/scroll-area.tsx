@@ -31,17 +31,15 @@ const ScrollBar = React.forwardRef<
     ref={ref}
     orientation={orientation}
     className={cn(
-      "flex touch-none select-none border-none",
-      orientation === "vertical" &&
-        "border-none border-l-transparent p-0",
-      orientation === "horizontal" &&
-        "flex-col border-none border-t-transparent p-0",
+      "flex touch-none select-none border-transparent",
+      orientation === "vertical",
+      orientation === "horizontal",
       className
     )}
     style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} // For Firefox and IE
     {...props}
   >
-    <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full border-newwhite" style={{ backgroundColor: 'transparent' }} />
+    <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full border-transparent" style={{ display: 'none' }} />
   </ScrollAreaPrimitive.ScrollAreaScrollbar>
 ))
 ScrollBar.displayName = ScrollAreaPrimitive.ScrollAreaScrollbar.displayName
