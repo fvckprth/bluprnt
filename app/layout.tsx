@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: '/bluprnt-og.png',
+        url: 'https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png',
         width: 900,
         height: 450,
         alt: 'BluPrnt OG Image',
@@ -61,13 +61,13 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
-        <meta property="og:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
+        <meta property="og:image" content="https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="bluprnt.vercel.app" />
         <meta property="twitter:url" content="https://bluprnt.vercel.app" />
         <meta name="twitter:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta name="twitter:description" content={metadata.description as string} />  {/* Type assertion to string */}
-        <meta name="twitter:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
+        <meta name="twitter:image" content="https://bluprnt-48jd2n6zu-fvckprth.vercel.app/bluprnt-og.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
       <body className={`${sfRoundMedium.variable} ${sfRoundBold.variable} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
