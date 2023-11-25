@@ -2,17 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 .arrow:hover {
   filter: brightness(0) saturate(100%) invert(28%) sepia(43%) saturate(4094%) hue-rotate(204deg) brightness(99%) contrast(101%);
 }
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@font-face {
+  font-family: 'SF Round Medium';
+  src: url('/fonts/sf-round-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Round Bold';
+  src: url('/fonts/sf-round-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
  
 @layer base {

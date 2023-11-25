@@ -1,5 +1,6 @@
 import type { Viewport } from 'next'
 import type { Metadata } from 'next'
+import Head from 'next/head'
 import localFont from 'next/font/local'
 import '@/styles/globals.css'
 import Footer from '@/components/footer'
@@ -50,7 +51,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${sfRoundMedium.className} scroll-smooth subpixel-antialiased tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
+      <Head>
+        <title>{(metadata.title as React.ReactNode) || 'Fallback Title'}</title>
+        <meta name="description" content={metadata.description as string} />  {/* Type assertion to string */}
+        <meta name="theme-color" content="#007AFF" />
+        <meta name="apple-mobile-web-app-title" content="BluPrnt" />
+        <meta property="og:site_name" content="BluPrnt" />
+        <meta property="og:url" content="https://www.bluprnt.design" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
+        <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
+        <meta property="og:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="bluprnt.design" />
+        <meta property="twitter:url" content="https://www.bluprnt.design" />
+        <meta name="twitter:title" content={metadata.title as string} />  {/* Type assertion to string */}
+        <meta name="twitter:description" content={metadata.description as string} />  {/* Type assertion to string */}
+        <meta name="twitter:image" content="https://bluprnt-7novl14np-fvckprth.vercel.app/images/bluprnt-og.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+      </Head>
+      <body className={`${sfRoundMedium.className} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
         {children}
         <Footer />
       </body>
