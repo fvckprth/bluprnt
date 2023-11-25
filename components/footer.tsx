@@ -32,7 +32,7 @@ export default function Subscribe() {
                 <p>v.2023.11</p>
             </div>
             <div>
-                <Link href="http://www.parth.ski">
+                <Link href="http://parth.ski">
                     <div className='flex flex-row border-b hover:text-newblue hover:border-b-newblue arrow'>
                         <p className='flex align-bottom items-center'>parth.ski</p>
                         <Image 

@@ -7,7 +7,7 @@ import { Link as ScrollLink } from 'react-scroll';
 
 export default function Hero() {
   return (
-    <div className="flex flex-col text-4xl md:text-8xl md:mx-40 pt-8 md:pt-12 font-bold">
+    <div className="flex flex-col text-4xl md:text-8xl mx-6 md:mx-40 pt-8 md:pt-12 font-bold">
         <div>Unlimited design.</div>
         <div>Flat monthly fee.</div>
         <div><span className="text-newblue">BluPrnt</span> for success.</div>
