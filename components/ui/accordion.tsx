@@ -33,8 +33,9 @@ const AccordionTrigger = React.forwardRef<
         className
       )}
       {...props}
+      style={{ WebkitTapHighlightColor: 'transparent' }}
     >
-      <PlusIcon className="h-6 w-6 mr-3 shrink-0 transition-transform duration-200 text-newblue"/>
+      <PlusIcon className="h-6 w-6 mr-1 md:mr-3 shrink-0 transition-transform duration-200 text-newblue"/>
         {children}
     </AccordionPrimitive.Trigger>
   </AccordionPrimitive.Header>

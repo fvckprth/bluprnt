@@ -14,6 +14,10 @@ body {
 .arrow:hover {
   filter: brightness(0) saturate(100%) invert(28%) sepia(43%) saturate(4094%) hue-rotate(204deg) brightness(99%) contrast(101%);
 }
+
+.ScrollAreaScrollbar::-webkit-scrollbar {
+  display: none;
+}
  
 @layer base {
   :root {

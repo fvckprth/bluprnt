@@ -71,7 +71,7 @@ export default function Plan() {
               <p className="text-newgray">2-3 day turnaround</p>
             </li>
           </ul>
-          <ul className="grid grid-col-1 gap-2">
+          <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image
                 src="/icons/in-house.svg"
@@ -143,9 +143,9 @@ export default function Plan() {
           </div>
           <p className="text-base md:text-xl text-newgray/50">Pause or cancel anytime</p>
         </div>
-        <div className="flex flex-row justify-between md:justify-start md:gap-8 text-sm md:text-xl">
-          <ul className="grid grid-col-1 gap-2">
-            <li className="flex items-center gap-2">
+        <div className="flex flex-row justify-between md:justify-start gap-0 md:gap-8 text-sm md:text-xl">
+        <ul className="grid grid-col-1 gap-1 md:gap-2">
+            <li className="flex items-center gap-1 md:gap-2">
               <Image
                 src="/icons/certificate.svg"
                 alt="Priority support"
@@ -155,7 +155,7 @@ export default function Plan() {
               />
               <p className="text-neworange">Priority support</p>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-1 md:gap-2">
               <Image
                 src="/icons/rocket.svg"
                 alt="Unlimited requests"
@@ -165,7 +165,7 @@ export default function Plan() {
               />
               <p className="text-neworange">Unlimited requests</p>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-1 md:gap-2">
               <Image
                 src="/icons/unlimited_revisions.svg"
                 alt="One request"
@@ -175,7 +175,7 @@ export default function Plan() {
               />
               <p className="text-newgray">Unlimited revisions</p>
             </li>
-            <li className="flex items-center gap-2">
+            <li className="flex items-center gap-1 md:gap-2">
               <Image
                 src="/icons/2-3_days.svg"
                 alt="2-3 day turnaround"

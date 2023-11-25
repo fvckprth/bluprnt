@@ -38,9 +38,10 @@ const ScrollBar = React.forwardRef<
         "flex-col border-none border-t-transparent p-0",
       className
     )}
+    style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }} // For Firefox and IE
     {...props}
   >
-    <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full border-newwhite" />
+    <ScrollAreaPrimitive.ScrollAreaThumb className="relative flex-1 rounded-full border-newwhite" style={{ backgroundColor: 'transparent' }} />
   </ScrollAreaPrimitive.ScrollAreaScrollbar>
 ))
 ScrollBar.displayName = ScrollAreaPrimitive.ScrollAreaScrollbar.displayName
