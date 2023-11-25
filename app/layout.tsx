@@ -28,14 +28,12 @@ export const metadata: Metadata = {
     apple: 'favicons/apple-touch-icon.png'
   },
   openGraph: {
-    title: 'BluPrnt',
-    description: 'BluPrnt is a personal and opinionated subscription design service by Parth Patel based in New York.',
     images: [
       {
-        url: '/bluprnt-og.png',
+        url: 'images/bluprnt-final-og.png',
         width: 900,
         height: 450,
-        alt: 'BluPrnt OG Image',
+        alt: 'Amaya OG Image',
       },
     ],
     locale: 'en_US',
@@ -59,7 +57,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#007AFF" />
         <meta name="apple-mobile-web-app-title" content="BluPrnt" />
         <meta property="og:site_name" content="BluPrnt" />
-        <meta property="og:url" content="https://bluprnt.vercel.app" />
+        <meta property="og:url" content="https://bluprnt.design" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta property="og:description" content={metadata.description as string} />  {/* Type assertion to string */}
@@ -67,7 +65,7 @@ export default function RootLayout({
         <meta property="og:image:alt" content="BluPrnt OG" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="bluprnt.vercel.app" />
-        <meta property="twitter:url" content="https://bluprnt.vercel.app" />
+        <meta property="twitter:url" content="https://bluprnt.design" />
         <meta name="twitter:title" content={metadata.title as string} />  {/* Type assertion to string */}
         <meta name="twitter:description" content={metadata.description as string} />  {/* Type assertion to string */}
         <meta name="twitter:image" content="/bluprnt-og.png" />
