@@ -50,7 +50,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <>
       <Head>
         <title>{(metadata.title as React.ReactNode) || 'Fallback Title'}</title>
         <meta name="description" content={metadata.description as string} />  {/* Type assertion to string */}
@@ -70,10 +70,12 @@ export default function RootLayout({
         <meta name="twitter:image" content="/bluprnt-og.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
+      <html lang="en">
       <body className={`${sfRoundMedium.variable} ${sfRoundBold.variable} antialiased scroll-smooth tracking-tight leading-none text-newblack bg-newwhite selection:bg-newblue/25 selection:text-newblue`}>
         {children}
         <Footer />
       </body>
     </html>
+    </>
   )
 }
