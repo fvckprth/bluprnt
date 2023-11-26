@@ -45,7 +45,7 @@ import {
     },
     {
       question: "Is there a request limit?",
-      answer: "For the personal plan, there's a cap of 2 requests at a time. If you're on the team plan, you get unlimited requests."
+      answer: "For the personal plan, you can make one request at a time. With the team plan, there's no limit to the number of requests you can make."
     },
     {
       question: "How do I manage my subscription?",

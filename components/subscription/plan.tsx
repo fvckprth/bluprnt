@@ -145,7 +145,7 @@ export default function Plan() {
           </div>
           <p className="text-base md:text-xl text-newgray/50" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>Pause or cancel anytime</p>
         </div>
-        <div className="flex flex-row gap-4 md:gap-8 text-sm md:text-xl" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
+        <div className="flex flex-row gap-6 md:gap-10 text-sm md:text-xl" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
         <ul className="grid grid-col-1 gap-1 md:gap-2">
             <li className="flex items-center gap-1 md:gap-2">
               <Image
