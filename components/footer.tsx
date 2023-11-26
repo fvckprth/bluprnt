@@ -7,7 +7,7 @@ export default function Subscribe() {
       <div className='mx-6 md:mx-40 flex flex-row justify-between text-newgray text-sm md:text-base border-t'>
         <div className='py-4 md:py-6 flex flex-col space-y-1 md:space-y-2'>
             <div className='flex flex-row items-center'>
-                <p className='mr-1'>Designed by</p>
+                <p className='mr-1'>Built by</p>
                 <Image 
                     src="/images/parth_avatar.jpeg"
                     width={120} 
