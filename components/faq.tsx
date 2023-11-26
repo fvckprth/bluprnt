@@ -12,6 +12,10 @@ import {
       answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get either Parth or another senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect. Watch your project develop, one request at a time."
     },
     {
+      question: "Why subscription instead of hiring?",
+      answer: "Hiring a designer can cost over $100,000 annually. BluPrnt provides a quicker, more affordable alternative."
+    },
+    {
       question: "What is your area of expertise?",
       answer: "We are great at designing digital interfaces, such as web, desktop, and mobile apps. We can also handle redesigns, landing pages, design systems, style guides, branding, and icons."
     },
@@ -55,10 +59,6 @@ import {
       question: "Do you code or develop?",
       answer: "Yes, we can take care of the building part too, depending on your project. That would be beyond the subscription scope, so please use our custom request form for such inquiries."
     },
-    {
-      question: "Why subscription instead of hiring?",
-      answer: "Hiring a designer can cost over $100,000 annually. BluPrnt provides a quicker, more affordable alternative."
-    }
   ];
   
   export default function FAQ() {
