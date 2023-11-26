@@ -71,7 +71,7 @@ export default function Service() {
         <div className="space-y-2 md:space-y-3 pb-4 md:pb-10">
           <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Custom Request</div>
           <p className="text-base md:text-xl text-newgray"  style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
-            I&apos;m <strong>here to listen</strong> & make it
+            We&apos;re <strong>here to listen</strong> & make it
             <br />
             happen however you want
           </p>

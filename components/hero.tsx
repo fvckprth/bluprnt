@@ -29,7 +29,7 @@ export default function Hero() {
               style={{ border: 'none', background: 'none' }}
               >
                 <Button variant="white">
-                    Book intro
+                    Book call
                 </Button>
               </motion.div>
             </Link>

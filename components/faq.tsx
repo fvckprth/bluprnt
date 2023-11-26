@@ -9,11 +9,11 @@ import {
   const faqData = [
     {
       question: "Why BluPrnt?",
-      answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get either Parth or another senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect."
+      answer: "With BluPrnt, high-quality design becomes accessible, adaptable, and affordable. Subscribe and get either Parth or another senior designer in a private Slack channel, ready to turn around tasks in 2 days or less. Need changes? We revise until it's perfect."
     },
     {
       question: "Why subscription instead of hiring?",
-      answer: "Hiring a designer can cost over $100,000 annually. BluPrnt provides a quicker, more affordable alternative."
+      answer: "Hiring a designer can cost over $100,000 annually. BluPrnt is an ideal, flexible and cost-effective solution for anyone from startups seeking to validate their MVP for funding, to small teams and large corporations looking to offload their design work."
     },
     {
       question: "How does subscription work?",

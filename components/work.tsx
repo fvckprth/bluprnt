@@ -35,7 +35,7 @@ export default function Work() {
             </div>
             <div onScroll={handleScroll}>
                 <ScrollArea>
-                    <div className={`flex space-x-4 md:space-x-6 overflow-x-auto ${isScrolled ? '' : 'pl-4 md:pl-6'} hide-scrollbar`}>
+                    <div className={`flex flex-row space-x-4 md:space-x-6 overflow-x-auto ${isScrolled ? '' : 'pl-4 md:pl-6'} hide-scrollbar`}>
                         {images.map((image, index) => {
                             const width = image.width;
                             const height = image.height;
@@ -50,7 +50,7 @@ export default function Work() {
                                             priority={true}
                                             className="h-full rounded-2xl"
                                         />
-                                    </div>
+                                </div>
                             );
                         })}
                     </div>
