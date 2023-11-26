@@ -33,7 +33,7 @@ import {
     },
     {
       question: "Who are the designers?",
-      answer: "You'll work directly with BluPrnt's founder, Parth, who has over 7+ years of experience, ensuring high-quality and quick responses. Sometimes, we collaborate with other designers, always maintaining top quality."
+      answer: "You'll work directly with BluPrnt's founder, Parth, who has over 5+ years of experience, ensuring high-quality and quick responses. Sometimes, we collaborate with other designers, always maintaining top quality."
     },
     {
       question: "How will we communicate?",
