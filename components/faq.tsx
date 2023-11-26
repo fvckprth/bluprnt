@@ -9,19 +9,19 @@ import {
   const faqData = [
     {
       question: "Why BluPrnt?",
-      answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get either Parth or another senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect. Watch your project develop, one request at a time."
+      answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get either Parth or another senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect."
     },
     {
       question: "Why subscription instead of hiring?",
       answer: "Hiring a designer can cost over $100,000 annually. BluPrnt provides a quicker, more affordable alternative."
     },
     {
-      question: "What is your area of expertise?",
-      answer: "We are great at designing digital interfaces, such as web, desktop, and mobile apps. We can also handle redesigns, landing pages, design systems, style guides, branding, and icons."
+      question: "How does subscription work?",
+      answer: "When you sign up, you'll receive a welcome email with all the details. We'll set you up on Linear, complete with a Loom tutorial on adding design issues, and invite you to your own personal Slack channel for direct communication."
     },
     {
-      question: "How does the design subscription work?",
-      answer: "When you sign up, you'll receive a welcome email with all the details. We'll set you up on Linear, complete with a Loom tutorial on adding design issues, and invite you to your own personal Slack channel for direct communication."
+      question: "What is your area of expertise?",
+      answer: "We are great at designing digital interfaces, such as web, desktop, and mobile apps. We can also handle redesigns, landing pages, design systems, style guides, branding, and icons."
     },
     {
       question: "How soon will I get my designs?",
@@ -29,7 +29,7 @@ import {
     },
     {
       question: "Do you work on existing designs?",
-      answer: "Yes, we can work on existing designs. We’re love refining apps, prototypes, or wireframes to improve their design and usability."
+      answer: "Yes, we can work on existing designs. We love refining apps, prototypes, or wireframes to improve their design and usability."
     },
     {
       question: "Who are the designers?",
@@ -53,7 +53,7 @@ import {
     },
     {
       question: "What design software do you use?",
-      answer: "I'll use Figma for all of our design work."
+      answer: "We'll use Figma for all of our design work."
     },
     {
       question: "Do you code or develop?",
