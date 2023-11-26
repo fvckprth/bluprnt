@@ -11,7 +11,7 @@ export default function Plan() {
           <div className="text-xl md:text-2xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>Personal Plan</div>
           <div className="text-3xl md:text-5xl font-bold" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>$3,200 / mo</div>
           <p className="text-base md:text-xl text-newgray" style={{ fontFamily: 'var(--font-sfRoundMedium)' }}>
-            Perfect for those with on-going <br /> needs for design work and
+            Perfect for those with ongoing <br /> needs for design work and
             growth
           </p>
         </div>

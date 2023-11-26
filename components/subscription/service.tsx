@@ -47,7 +47,7 @@ export default function Service() {
         </div>
         <div className="space-y-2 md:space-y-3" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
           <div className="flex flex-col items-start">
-            <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
+            <Link href="https://tally.so/r/mO7JBM">
               <motion.div
                 whileTap={{ scale: 0.95 }}
                 style={{ border: "none", background: "none" }}
@@ -78,7 +78,7 @@ export default function Service() {
         </div>
         <div className="space-y-2 md:space-y-3" style={{ fontFamily: 'var(--font-sfRoundBold)' }}>
           <div className="flex flex-col items-start">
-            <Link href="https://buy.stripe.com/5kAcNU8gaefggKIbII">
+            <Link href="https://tally.so/r/mVzMM6">
               <motion.div
                 whileTap={{ scale: 0.95 }}
                 style={{ border: "none", background: "none" }}

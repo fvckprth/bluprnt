@@ -9,11 +9,15 @@ import {
   const faqData = [
     {
       question: "Why BluPrnt?",
-      answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get a senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect. Watch your project develop, one request at a time."
+      answer: "At BluPrnt, we break down your design process into focused tasks. Subscribe and get either Parth or another senior designer in a private channel, ready to turn around tasks in 2 days or less. Need tweaks? We revise until it's perfect. Watch your project develop, one request at a time."
     },
     {
-      question: "What is your niche?",
+      question: "What is your area of expertise?",
       answer: "We are great at designing digital interfaces, such as web, desktop, and mobile apps. We can also handle redesigns, landing pages, design systems, style guides, branding, and icons."
+    },
+    {
+      question: "How does the design subscription work?",
+      answer: "When you sign up, you'll receive a welcome email with all the details. We'll set you up on Linear, complete with a Loom tutorial on adding design issues, and invite you to your own personal Slack channel for direct communication."
     },
     {
       question: "How soon will I get my designs?",
@@ -21,10 +25,14 @@ import {
     },
     {
       question: "Do you work on existing designs?",
-      answer: "Yes, we can work on existing designs. We’re good at refining apps, prototypes, or wireframes to improve their design and usability."
+      answer: "Yes, we can work on existing designs. We’re love refining apps, prototypes, or wireframes to improve their design and usability."
     },
     {
-      question: "Why no calls or meetings?",
+      question: "Who are the designers?",
+      answer: "You'll work directly with BluPrnt's founder, Parth, who has over 7+ years of experience, ensuring high-quality and quick responses. Sometimes, we collaborate with other designers, always maintaining top quality."
+    },
+    {
+      question: "How will we communicate?",
       answer: "We use Slack, Loom, or email for communication. It’s efficient and helps us get the work done faster."
     },
     {
@@ -41,15 +49,15 @@ import {
     },
     {
       question: "What design software do you use?",
-      answer: "We use Figma for all of our design work."
+      answer: "I'll use Figma for all of our design work."
     },
     {
       question: "Do you code or develop?",
       answer: "Yes, we can take care of the building part too, depending on your project. That would be beyond the subscription scope, so please use our custom request form for such inquiries."
     },
     {
-      question: "Are there any refunds?",
-      answer: "Sorry, we don't offer refunds. We dedicate time and effort to each subscription right from the start, which means that space is specially held for you and your projects."
+      question: "Why subscription instead of hiring?",
+      answer: "Hiring a designer can cost over $100,000 annually. BluPrnt provides a quicker, more affordable alternative."
     }
   ];
   
