@@ -4,7 +4,7 @@ import Head from 'next/head'
 import localFont from 'next/font/local'
 import '@/styles/globals.css'
 import Footer from '@/components/footer'
-import IntercomProviderWrapper from '@/components/intercom-wrapper';
+import { IntercomProvider } from "../util/IntercomProvider";
 
 export const dynamic = 'force-dynamic'
 
@@ -51,7 +51,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <IntercomProviderWrapper>
+    <IntercomProvider>
     <>
       <Head>
         <title>{(metadata.title as React.ReactNode) || 'Fallback Title'}</title>
@@ -80,6 +80,6 @@ export default function RootLayout({
       </body>
     </html>
     </>
-    </IntercomProviderWrapper>
+    </IntercomProvider>
   )
 }
