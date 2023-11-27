@@ -139,7 +139,7 @@ export default function Plan() {
                 whileTap={{ scale: 0.95 }}
                 style={{ border: "none", background: "none" }}
               >
-                <Button variant="orange">Launch with teams</Button>
+                <Button variant="orange">Get started</Button>
               </motion.div>
             </Link>
           </div>

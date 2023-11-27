@@ -9,7 +9,7 @@ import {
   const faqData = [
     {
       question: "Why BluPrnt?",
-      answer: "With BluPrnt, high-quality design becomes accessible, adaptable, and affordable. Subscribe and get either Parth or another senior designer in a private Slack channel, ready to turn around tasks in 2 days or less. Need changes? We revise until it's perfect."
+      answer: "With BluPrnt, high-quality design becomes accessible, adaptable, and affordable. Subscribe and get a senior designer in a private Slack channel, ready to turn around tasks in 2 days or less. Need changes? We revise until it's perfect."
     },
     {
       question: "Why subscription instead of hiring?",
@@ -37,7 +37,7 @@ import {
     },
     {
       question: "How will we communicate?",
-      answer: "We use Slack, Loom, or email for communication. It’s efficient and helps us get the work done faster."
+      answer: "We use Slack, Loom, or email for communication."
     },
     {
       question: "What if I don’t like my designs?",
