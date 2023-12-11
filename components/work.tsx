@@ -9,9 +9,18 @@ export default function Work() {
         { src: 'mock_01.png', title: 'Work 1', width: 742, height: 600, type: 'desktop' },
         { src: 'mock_02.png', title: 'Work 2', width: 200, height: 600, type: 'mobile' },
         { src: 'mock_03.png', title: 'Work 3', width: 200, height: 600, type: 'mobile' },
+        { src: 'solomon_01.png', title: 'Solomon 01', width: 742, height: 600, type: 'desktop' },
+        { src: 'solomon_02.png', title: 'Solomon 02', width: 742, height: 600, type: 'desktop' },
+        { src: 'solomon_03.png', title: 'Solomon 03', width: 200, height: 600, type: 'mobile' },
+        { src: 'atlas_01.png', title: 'Atlas 01', width: 200, height: 600, type: 'mobile' },
+        { src: 'atlas_02.png', title: 'Atlas 02', width: 742, height: 600, type: 'mobile' },
         { src: 'mock_04.png', title: 'Work 4', width: 200, height: 600, type: 'mobile' },
         { src: 'mock_05.png', title: 'Work 5', width: 200, height: 600, type: 'mobile' },
+        { src: 'amaya_01.png', title: 'Amaya 01', width: 742, height: 600, type: 'desktop' },
+        { src: 'amaya_02.png', title: 'Amaya 02', width: 200, height: 600, type: 'mobile' },
         { src: 'mock_06.png', title: 'Work 6', width: 200, height: 600, type: 'mobile' },
+        { src: '2030_calculator_01.png', title: '2030 Calculator 01', width: 200, height: 600, type: 'mobile'},
+        { src: '2030_calculator_02.png', title: '2030 Calculator 02', width: 200, height: 600, type: 'mobile'},
         { src: 'mock_07.png', title: 'Work 7', width: 742, height: 600, type: 'desktop' },
     ];
 
@@ -41,14 +50,14 @@ export default function Work() {
                             const height = image.height;
 
                             return (
-                                <div key={index} className="border border-newgray/25 shadow-sm rounded-2xl m-2 flex-shrink-0">
+                                <div key={index} className="border border-newgray/25 shadow-sm rounded-xl m-2 flex-shrink-0">
                                         <Image
                                             src={`/images/mocks/${image.src}`}
                                             alt={image.title}
                                             width={width}
                                             height={height}
                                             priority={true}
-                                            className="h-full rounded-2xl"
+                                            className="h-full rounded-xl"
                                         />
                                 </div>
                             );
